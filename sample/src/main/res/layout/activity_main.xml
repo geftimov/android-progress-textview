@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#CC0066"
+    tools:context=".MainActivity">
+
+    <com.eftimoff.progresstextview.ProgressTextView
+        android:textSize="32sp"
+        android:text="////////////////////"
+        android:gravity="center"
+        app:ptv_progressColor="@android:color/white"
+        android:textColor="#d684ad"
+        android:id="@+id/progressBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.eftimoff.progresstextview.ProgressTextView
+        android:textSize="24sp"
+        android:text="Loading ..."
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/progressBar2"
+        android:textColor="@android:color/white"
+        app:ptv_progressColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
