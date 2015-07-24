@@ -34,10 +34,17 @@ I want to update this library and make it better. So any help will be appreciate
 Make and pull - request and we can discuss it.
 
 ## Download
-Not yet
-	dependencies {
-		compile 'com.eftimoff:android-progress-textview:1.0.0@aar'
+
+	repositories {
+	    maven {
+	        url "https://jitpack.io"
+	    }
 	}
+	
+	dependencies {
+		compile 'com.github.geftimov:android-progress-textview:v0.0.1'
+	}
+
 
 ## Licence
 
